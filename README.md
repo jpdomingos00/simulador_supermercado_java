@@ -1,17 +1,11 @@
-# Simulação de Caixa de Supermercado
+#Simulação de Caixa de Supermercado
 
-Este projeto em **Java** implementa uma simulação de atendimento em caixas de supermercado, utilizando conceitos de **orientação a objetos** e **estruturas de dados**.
+Este projeto foi desenvolvido em Java e tem como objetivo simular o funcionamento de caixas de supermercado. A ideia é aplicar conceitos de orientação a objetos e estruturas de dados para criar uma simulação eficiente e realista.
 
----
+#Estrutura do Projeto
 
-##  Estrutura do Projeto
-
-- **Main.java**  
-  Contém o método `main` e serve como ponto de entrada do programa.  
-  Ele inicia a simulação chamando os métodos da classe `SimulacaoCaixaSupermercado`.
-
-- **SimulacaoCaixaSupermercado.java**  
-  Contém toda a lógica da simulação:  
-  - Representa os **clientes** e seus tempos de atendimento.  
-  - Controla os **caixas** disponíveis.  
-  - Gerencia as **filas** de clientes e processa os atendimentos.  
+Main.java Este arquivo contém o método main, que serve como ponto de entrada para a execução do programa. Ele inicia a simulação, acionando os métodos da classe SimulacaoCaixaSupermercado.
+SimulacaoCaixaSupermercado.java Aqui fica toda a lógica que faz a simulação acontecer. A classe:
+Representa os clientes e os tempos de atendimento de cada um.
+Controla os caixas disponíveis para o atendimento.
+Gerencia as filas de clientes e coordena o processamento do atendimento em cada caixa.
